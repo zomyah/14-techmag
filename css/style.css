@@ -2,12 +2,91 @@
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
 */
-
-html {
-  scroll-behavior: smooth;
+html{
+  margin: 20px;
 }
 
 body {
-  max-width: 320px;
+  background-color: black;
+  color: white;
   margin: auto;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url(../img/ligne-de-code.png);
+  border: solid white;
+  margin-bottom: 20px;
+  padding-top: 55px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  color: white;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+header span {
+  font-style: italic;
+  color: rgb(15, 180, 125);
+  font-weight: 100;
+}
+
+header p {
+  color:rgb( 187, 187, 186) ;
+}
+
+img{
+  width: 100%;
+}
+
+.green-back {
+  background-color: rgb( 0, 252, 166);
+  padding-top: 35px;
+  color:rgb( 14, 104, 72) ;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 30px;
+}
+
+article p {
+  color: black;
+}
+
+h1{
+  font-size: 20px;
+}
+h3 {
+  color: white;
+}
+
+figure {
+  color: black;
+  box-shadow: 2px 2px 2px 2px grey ;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 220px;
+}
+
+figcaption {
+  font-size: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.button{
+  border: solid 5px;
+  background-color: rgb(68, 68, 68);
+  
 }
