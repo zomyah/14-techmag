@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../14-TECHMAG/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>TechMag</title>
   </head>
   <body>
@@ -11,28 +11,26 @@
       <h1>
         TechMag<span>2000</span>
       </h1>
-      <p> 
-        Le magazine qui explore les
-        technologies du futur
+      <p class="tagline">Le magazine qui explore les technologies du futur
       </p>
     </header>
     <main>
-      <article class="green-back">
-        <h1>Notre magazine</h1>
-        <p>
+      <div class="card-green">
+        <h2>Notre magazine</h2>
+        <p class="paragraph-green">
           "I just knew it! Well, I wasn't gonna let you get all the credit and 
           take all the reward. Hey, I knew there was more to you than money.
           Oh, no! Oh, my! Artoo! Can you hear me?""
         </p>
-      </article>
-      <article>
-        <h3>Toujours plus de drône dans le ciel</h3>
-        <h4>          
+      </div>
+      <article class="card-withe">
+        <h2>Toujours plus de drône dans le ciel</h2>
+        <p class="info">     
           Publié le 
           <span>10 février 2025</span>
           par 
-          <span>James Webb</span>
-        </h4>
+          <span class="author">James Webb</span>
+        </p>
         <p>
           Your friend is quite a mercenary. 
           I wonder if he really cares about anything...or anyone. I care! 
@@ -40,18 +38,35 @@
           Still, she's got a lot of spirit. I don't know, what do you think? 
           Do you think a princess and a guy like me... No!
         </p>
-            <figure class="art-drone">
+            <figure>
               <img src="../14-techmag/img/drone.png" alt="drone">
               <figcaption>
                 Le drône est-t'il le nouveau meilleur ami de l'homme
               </figcaption>
             </figure>
-        <a class="button" href="../14-techmag/article.html" target="_blank">
-          En lire plus
-        </a>
+            <a href="article.html" class="button">En lire plus</a>
       </artcile>
-      <article>
-
+      <article class="card">
+        <h2>Interet, c'était mieux avant</h2>
+        <p class="infos">
+          Publié le <span class="date">7 janvier 2025</span> par <span class="author">
+          Arthur Poulas</span>         
+          <p>
+          Yes. Our scout ships have reached Dantooine. 
+          They foubd the remain of revel base, but hey estimate that it has been 
+          deserted.
+        </p>
+        <figure>
+          <img src="img/ordinateur_.png" alt="ordinateur"/>
+          <figcaption>
+            Au moins on peut toujours changer son fond d'écran
+          </figcaption>
+        </figure>
+        <p>
+          For some time. They are now conducting an extensive search of the
+          surrounding systems.
+        </p>
+        <a href="article.html" class="button">En lire plus</a>
       </article>
     </main>
     <footer>
